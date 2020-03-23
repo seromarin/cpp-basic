@@ -57,9 +57,9 @@ int main(int argc, char const *argv[])
         } else {
             heroPosition = checkHeroPosition(heroPosition, heroMovement);
             system("clear");
-            drawMap(heroPosition, gameMap);
+            // drawMap(heroPosition, gameMap);
+            cout << endl;
         }
-        // cout << endl;
     }
 
 
